@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  font-family: 'Lato', 'Gothic A1', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 767px) {
+  .partner {
+    display: none;
+  }
+
+  .rigts {
+    display: none;
+  }
+
+  /* Ham starts */
+  .ham-popup {
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid#fff;
+    padding: 0 0 0 8%;
+    background: #343a40;
+    opacity: 0.95;
+    position: fixed;
+    height: 98%;
+    width: 100%;
+    z-index: 99;
+    display: none;
+  }
+
+  .ham-popup-ul {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 8% 0;
+    padding: 0;
+  }
+
+  .ham-popup-item {
+    background-color: #00003325;
+    border-radius: 20px;
+    list-style: none;
+    width: 80%;
+    margin: 0 0 3% 0;
+    padding: 0 0 0 3%;
+  }
+
+  .ham-popup-link {
+    text-decoration: none;
+    color: #f8f9fa;
+    font-weight: 800;
+    font-size: 2rem;
+  }
+
+  .cross-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3%;
+    width: 8%;
+    background-color: #fff;
+    opacity: 0.9;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 2% 2% 0 0;
+  }
+
+  /* Ham Ends */
+
+  /* Header */
+  .header {
+    display: none;
+  }
+
+  /* Header end */
+
+  /* navbar starts */
+  .navigation {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5% 2.55% 0;
+  }
+
+  .logo {
+    width: 50%;
+    margin-left: 50%;
+  }
+
+  .navbar-ul {
+    display: none;
+  }
+
+  .hambar {
+    border: none;
+    background: none;
+    width: 100px;
+  }
+
+  .hambar img {
+    width: 50%;
+  }
+
+  .navbar-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .navbar-brand img {
+    max-width: 50%;
+    margin-left: 50%;
+  }
+
+  .navbar-intro {
+    box-shadow: 0 15px 10px -15px #111;
+  }
+
+  .navbar-wrapper {
+    display: none;
+  }
+
+  .navbar {
+    position: inherit;
+  }
+
+  /* navbar ends */
+
+  /* conference intro starts */
+  .seminar-info {
+    background-image: url(./assets/images/islamic-background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 66%;
+  }
+
+  .greeting {
+    color: #ec5242;
+    padding: 5% 10% 2.5% 10%;
+    font-size: 4vw;
+    font-weight: 400;
+  }
+
+  .heading {
+    text-align: center;
+    padding: 0 3% 3% 3%;
+    color: #ec5242;
+    font-weight: 700;
+    font-size: 6vw;
+  }
+
+  .seminar-p {
+    text-align: center;
+    padding: 0 8% 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 17px;
+    color: #515151;
+    background: transparent;
+    border: 8.49673px solid #fff;
+  }
+
+  .seminar-schedule {
+    color: #595959;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.25rem;
+    padding-left: 2%;
+    padding-top: 5.4%;
+    margin: 0;
+  }
+
+  .venue {
+    color: #868686;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.815rem;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 5%;
+  }
+
+  /* Main program starts */
+
+  .main-program {
+    background-image: url(./assets/images/program-bg.png);
+  }
+
+  .main-program-header {
+    color: #fff;
+    text-align: center;
+  }
+
+  .main-border {
+    width: 2rem;
+    border-bottom: 1px solid rgb(239, 81, 60);
+    margin: 0 auto 4rem;
+  }
+
+  .main-proram-contents {
+    /* gap 3%; */
+  }
+
+  .main-program-header h2 {
+    font-weight: 400;
+    font-size: 1.27rem;
+    margin: 4% 0%;
+    border-bottom: 2px solid red;
+    display: inline-block;
+  }
+
+  .program-content {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0 3% 2% 3%;
+    padding: ;
+  }
+
+  .image-wrap {
+    display: flex;
+  }
+
+  .program {
+    width: 31%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ff5438;
+    font-weight: 700;
+    font-size: 3vw;
+  }
+
+  .program-content img {
+    margin: 15% 0 15% 15%;
+  }
+
+  .program-content p {
+    color: #fff;
+    font-weight: 500;
+    font-size: 2.5vw;
+    letter-spacing: 0.06em;
+  }
+
+  .program-btn {
+    align-self: center;
+    text-align: center;
+    padding: 8% 0 10.5%;
+  }
+
+  .join {
+    background: #ff4f38;
+    color: #fff;
+    font-size: 5vw;
+    font-weight: 400;
+    padding: 2%;
+  }
+
+  .see-program {
+    display: none;
+  }
+
+  /* Main program ends */
+
+  /* Featured Speaker Starts */
+
+  .speaker-intro {
+    margin-bottom: 10%;
+    text-align: center;
+    padding-top: 4.18%;
+  }
+
+  .speaker-intro-border {
+    width: 2rem;
+    border-bottom: 1px solid #a04038;
+    margin: 0 auto 2.5rem;
+  }
+
+  .speaker {
+    display: flex;
+    margin: 0 0 6% 3%;
+  }
+
+  .speaker img {
+    max-width: 35%;
+    max-height: 5%;
+  }
+
+  .speaker-details {
+    padding-left: 4.2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .speaker h3 {
+    color: #000;
+    font-weight: 700;
+    font-size: 0.95rem;
+  }
+
+  .designition {
+    color: #f78c89;
+    font-weight: 700;
+    font-size: 0.63rem;
+    margin: 0;
+    margin-bottom: 1.8%;
+  }
+
+  .speaker-border {
+    width: 2rem;
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  .speaker-work {
+    color: #000;
+    font-weight: 700;
+    font-size: 0.6rem;
+    padding-top: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .ham-popup {
+    display: none;
+  }
+
+  /* Header */
+  .header {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: #3e3e3e;
+  }
+
+  .header-list {
+    display: flex;
+    justify-content: end;
+    margin-block-end: 0;
+    padding: 0.42em 9%;
+  }
+
+  .header-items {
+    list-style-type: none;
+    color: #fff;
+    padding-left: 1.2rem;
+    font-weight: 400;
+    height: auto;
+    font-size: 1.2vw;
+  }
+  /* Header end */
+
+  /* navbar starts */
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 1% 0;
+  }
+
+  .logo-wrapper {
+    width: 25%;
+  }
+
+  .navbar-ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0;
+    width: 75%;
+  }
+
+  .navbar-li {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 12.75%;
+  }
+
+  .navbar-link {
+    color: #868686;
+    font-weight: 600;
+    font-size: 1.25vw;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #about {
+    color: #ff4f38;
+  }
+
+  #cc-campaigns {
+    border: 3px solid #ff4f38;
+    color: #ff4f38;
+    padding: 4%;
+    box-sizing: border-box;
+    font-size: 1.25vw;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .hambar {
+    display: none;
+  }
+
+  .hambar img {
+    display: none;
+  }
+
+  .navbar-wrapper {
+    width: auto;
+  }
+
+  .navbar-brand {
+    padding-top: 0;
+    padding-left: 9%;
+  }
+
+  .navbar-brand img {
+    max-width: 50%;
+  }
+
+  /* navbar ends */
+
+  /* conference intro starts */
+  .seminar-info {
+    background-image: url(./assets/images/islamic-background.avif);
+    background-position-x: 10%;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: cover;
+    padding: 8%;
+  }
+
+  .seminar-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .greeting {
+    color: #ec5242;
+    font-size: 2.5vw;
+    font-weight: 400;
+  }
+
+  .heading {
+    padding-bottom: 5.4%;
+    max-width: 65%;
+    color: #ec5242;
+    font-size: 4vw;
+    font-weight: 700;
+  }
+
+  .seminar-p {
+    max-width: 65%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25.4902px;
+    color: #515151;
+    padding-top: 3.05%;
+    padding-bottom: 3.05%;
+    padding-left: 2.4%;
+    padding-right: 2.4%;
+    border: 8px solid #f1f0f093;
+  }
+
+  .seminar-schedule {
+    align-self: flex-start;
+    color: #595959;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3vw;
+    padding-top: 5.4%;
+  }
+
+  .venue {
+    align-self: flex-start;
+    color: #868686;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.7rem;
+  }
+
+  /* Main program starts */
+
+  .main-program {
+    background-image: url(./assets/images/program-bg.png);
+  }
+
+  .main-program-header {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.25vw;
+    padding: 3% 0;
+  }
+
+  .main-program-header hr {
+    width: 60px;
+    color: red;
+    margin-top: 13px;
+    align-self: center;
+  }
+
+  .main-border {
+    width: 4rem;
+    border-bottom: 2px solid rgb(239, 81, 60);
+    margin: 0 auto 4rem;
+  }
+
+  .image-wrap {
+    text-align: center;
+  }
+
+  /*
+  .main-program-header h2 {
+    font-weight: 400;
+    font-size: 1.9rem;
+    padding-top: 6%;
+  } */
+
+  .main-proram-contents {
+    margin-left: 9%;
+  }
+
+  .row {
+    display: flex;
+    padding: 0 15%;
+    gap: 0.5%;
+  }
+
+  .program-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1%;
+    width: 20%;
+  }
+
+  .program-content h3 {
+    padding-top: 4%;
+    color: #ff5438;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .program-content p {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1vw;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+
+  .program-btn {
+    display: none;
+  }
+
+  .see-program {
+    text-align: center;
+    padding: 6% 7%;
+  }
+
+  .see-program a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.25rem;
+  }
+
+  /* Main program ends */
+
+  /* Featured Speaker Starts */
+
+  .speaker-intro {
+    margin-bottom: 4%;
+    text-align: center;
+  }
+
+  .speaker-intro h2 {
+    margin-top: 15px;
+    color: #000;
+    font-weight: 400;
+    font-size: 1.875rem;
+  }
+
+  .speaker-intro-border {
+    width: 4rem;
+    color: #a04038;
+    margin: 1rem auto;
+    border: 1.5px solid #f78c89;
+  }
+
+  .speaker-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5%;
+    margin-bottom: 4.5%;
+    padding: 0 16%;
+  }
+
+  .speaker {
+    display: flex;
+    margin-bottom: 3.5%;
+  }
+
+  .speaker img {
+    max-height: 65%;
+  }
+
+  .speaker-details {
+    max-height: 50%;
+    padding-left: 4.2%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .speaker h3 {
+    color: #000;
+    font-weight: 700;
+    font-size: 1.75vw;
+  }
+
+  .designition {
+    color: #f78c89;
+    font-weight: 700;
+    font-size: 1.25vw;
+    margin: 0;
+    margin-bottom: 1.8%;
+  }
+
+  .speaker-border {
+    width: 3rem;
+    border-bottom: 2px solid #d9d9d9;
+  }
+
+  .speaker-work {
+    color: #000;
+    font-weight: 700;
+    font-size: 1vw;
+    padding-top: 0.8rem;
+  }
+
+  .partner {
+    background-color: #414246;
+  }
+
+  .partner-intro {
+    padding-top: 3.418%;
+  }
+
+  .partner-intro h2 {
+    color: #8f8f91;
+    font-weight: 400;
+    font-size: 1.875rem;
+    text-align: center;
+  }
+
+  .partner-intro-border {
+    width: 4rem;
+    border-bottom: 2px solid rgb(239, 81, 60);
+    margin: 0 auto 2.8rem;
+  }
+
+  .partner-logo {
+    margin-left: 7.5rem;
+    padding-bottom: 2.431%;
+  }
+
+  .partner-logo img {
+    width: 19%;
+    padding-right: 3.125rem;
+  }
+
+  /* Rights Starts */
+  .rigts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3.5%;
+  }
+
+  .rigts img {
+    width: 50%;
+  }
+
+  .rights-msg {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-left: 4.514%;
+  }
+
+  .rights-msg h4 {
+    color: #000;
+    font-weight: 700;
+  }
+
+  /* Rights Ends */
+}
