@@ -12,6 +12,10 @@ html {
 }
 
 @media only screen and (max-width: 767px) {
+.fa-brands {
+  color: #fff;
+}
+
   .partner {
     display: none;
   }
@@ -228,7 +232,6 @@ html {
     align-items: center;
     background: rgba(255, 255, 255, 0.1);
     margin: 0 3% 2% 3%;
-    padding: ;
   }
 
   .image-wrap {
@@ -335,6 +338,11 @@ html {
 }
 
 @media only screen and (min-width: 768px) {
+
+  .fa-brands {
+    color: #fff;
+  }
+
   .ham-popup {
     display: none;
   }
