@@ -12,9 +12,9 @@ html {
 }
 
 @media only screen and (max-width: 767px) {
-.fa-brands {
-  color: #fff;
-}
+  .fa-brands {
+    color: #fff;
+  }
 
   .partner {
     display: none;
@@ -36,6 +36,9 @@ html {
     height: 98%;
     width: 100%;
     z-index: 99;
+  }
+
+  .display {
     display: none;
   }
 
@@ -338,7 +341,6 @@ html {
 }
 
 @media only screen and (min-width: 768px) {
-
   .fa-brands {
     color: #fff;
   }
@@ -369,6 +371,7 @@ html {
     height: auto;
     font-size: 1.2vw;
   }
+
   /* Header end */
 
   /* navbar starts */

@@ -13,7 +13,7 @@ html {
     display: none;
   }
 
-  .rigts {
+  .display-initial {
     display: none;
   }
 
@@ -29,6 +29,9 @@ html {
     height: 98%;
     width: 100%;
     z-index: 99;
+  }
+
+  .display {
     display: none;
   }
 
@@ -150,6 +153,7 @@ html {
   .summitjoin-border {
     display: none;
   }
+
   .summit-description {
     background-image: url(./assets/images/islamic-conference-before.jpg);
     background-repeat: no-repeat;
@@ -214,6 +218,7 @@ html {
     font-weight: 800;
     font-size: 0.75rem;
   }
+
   /* Summint Description Ends */
 
   /* Summit logo start */
@@ -314,9 +319,10 @@ html {
   }
 
   .first-summit {
-    background-image: linear-gradient(
-      rgba(143, 6, 6, 0.4),
-      rgba(143, 6, 6, 0.4)
+    background-image:
+      linear-gradient(
+        rgba(143, 6, 6, 0.4),
+        rgba(143, 6, 6, 0.4)
       ),
       url(./assets/images/halaqa-2.jpg);
 
@@ -350,9 +356,10 @@ html {
   }
 
   .second-summit {
-    background-image: linear-gradient(
-      rgba(143, 6, 6, 0.4),
-      rgba(143, 6, 6, 0.4)
+    background-image:
+      linear-gradient(
+        rgba(143, 6, 6, 0.4),
+        rgba(143, 6, 6, 0.4)
       ),
       url(./assets/images/halaqa-2.jpg);
 
@@ -466,6 +473,7 @@ html {
     height: auto;
     font-size: 1.2vw;
   }
+
   /* Header end */
 
   /* navbar starts */
@@ -480,27 +488,11 @@ html {
     width: 25%;
   }
 
-  .navbar-ul {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin: 0;
-    width: 75%;
-  }
-
   .navbar-li {
     display: flex;
     justify-content: center;
     list-style: none;
     width: 12.75%;
-  }
-
-  .navbar-link {
-    color: #868686;
-    font-weight: 600;
-    font-size: 1.25vw;
-    text-decoration: none;
-    text-align: center;
   }
 
   #about {
@@ -519,25 +511,12 @@ html {
     width: 100%;
   }
 
-  .hambar {
-    display: none;
-  }
-
   .hambar img {
     display: none;
   }
 
   .navbar-wrapper {
     width: auto;
-  }
-
-  .navbar-brand {
-    padding-top: 0;
-    padding-left: 9%;
-  }
-
-  .navbar-brand img {
-    max-width: 50%;
   }
 
   /* navbar ends */
@@ -570,6 +549,10 @@ html {
 
   .navbar-ul {
     display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0;
+    width: 75%;
   }
 
   .navbar-item {
@@ -579,6 +562,7 @@ html {
   }
 
   .navbar-link {
+    text-align: center;
     color: #868686;
     font-weight: 800;
     font-size: 0.96rem;
@@ -595,6 +579,7 @@ html {
     background-position-x: 50%;
     margin-top: 0.2%;
   }
+
   .heading-wrapper {
     display: none;
   }
@@ -671,6 +656,7 @@ html {
     color: #fff;
     font-weight: 800;
   }
+
   /* Summit Description Ends */
 
   /* Summit Logo Starts */
@@ -776,9 +762,10 @@ html {
   }
 
   .first-summit {
-    background-image: linear-gradient(
-      rgba(143, 6, 6, 0.4),
-      rgba(143, 6, 6, 0.4)
+    background-image:
+      linear-gradient(
+        rgba(143, 6, 6, 0.4),
+        rgba(143, 6, 6, 0.4)
       ),
       url(./assets/images/halaqa-1.jpg);
     background-repeat: no-repeat;
@@ -788,7 +775,8 @@ html {
   }
 
   .second-summit {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(143, 6, 6, 0.4),
         rgba(143, 6, 6, 0.4)
       ),
@@ -858,5 +846,5 @@ html {
     font-size: 1.3rem;
   }
 
-  /* Rights Ends */
+  /* Rights Ends */
 }
