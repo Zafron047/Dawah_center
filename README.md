@@ -146,8 +146,11 @@ Thank you for your support!
 <br>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+<br>
 
-I would like to express my sincere gratitude to Microverse for providing me with this opportunity to learn and grow as a developer. Their support and guidance have been invaluable throughout my journey.
+- To [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), original designer thanks so much for the great work.
+
+- I would like to express my sincere gratitude to Microverse for providing me with this opportunity to learn and grow as a developer. Their support and guidance have been invaluable throughout my journey.
 
 <br>
 

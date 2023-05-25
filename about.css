@@ -76,10 +76,6 @@ html {
     text-decoration: none;
   }
 
-  /* .btn-frame {
-    color: #dedede;
-  } */
-
   /* Ham Ends */
 
   /* Header */
@@ -214,7 +210,6 @@ html {
   }
 
   .summit-mail a {
-    /* color: #fff; */
     font-weight: 800;
     font-size: 0.75rem;
   }
@@ -325,8 +320,6 @@ html {
         rgba(143, 6, 6, 0.4)
       ),
       url(./assets/images/halaqa-2.jpg);
-
-    /* background-image: url(./properties/first_summit.png); */
     background-repeat: no-repeat;
     background-size: cover;
     margin: 5%;
@@ -362,8 +355,6 @@ html {
         rgba(143, 6, 6, 0.4)
       ),
       url(./assets/images/halaqa-2.jpg);
-
-    /* background-image: url(./properties/summit-second.png); */
     background-repeat: no-repeat;
     background-size: cover;
     margin: 5%;
@@ -453,8 +444,6 @@ html {
 
   /* Header */
   .header {
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
     background: #3e3e3e;
   }
 
@@ -817,9 +806,9 @@ html {
   /* Rights Starts */
   .rigts {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background: #414246;
-    padding-left: 5%;
+    padding: 5%;
   }
 
   .rights-img-mobile {
@@ -827,23 +816,20 @@ html {
   }
 
   .rights-img-desktop {
-    width: 23%;
-    margin-left: 7%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    width: 40%;
   }
 
   .rights-msg {
     display: flex;
     align-items: center;
-    width: 72%;
-    padding-left: 4.514%;
+    width: 50%;
+    padding: 0 4%;
   }
 
   .rights-msg h4 {
     color: #fff;
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 2vw;
   }
 
   /* Rights Ends */

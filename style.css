@@ -20,10 +20,6 @@ html {
     display: none;
   }
 
-  .rigts {
-    display: none;
-  }
-
   /* Ham starts */
   .ham-popup {
     display: flex;
@@ -217,10 +213,6 @@ html {
     margin: 0 auto 4rem;
   }
 
-  .main-proram-contents {
-    /* gap 3%; */
-  }
-
   .main-program-header h2 {
     font-weight: 400;
     font-size: 1.27rem;
@@ -338,6 +330,42 @@ html {
     font-size: 0.6rem;
     padding-top: 0.8rem;
   }
+
+  /* Rights Starts */
+  .rigts {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #3b3e4544;
+  }
+
+  .rights-img-desktop {
+    display: none;
+  }
+
+  .rights-img-mobile {
+    width: 30%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+  }
+
+  .rights-msg {
+    display: flex;
+    align-items: center;
+    width: 72%;
+    padding-left: 4.514%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+  }
+
+  .rights-msg h4 {
+    color: #3b3e45;
+    font-size: 0.625rem;
+    font-weight: 700;
+  }
+
+  /* Rights Ends */
 }
 
 @media only screen and (min-width: 768px) {
@@ -351,8 +379,6 @@ html {
 
   /* Header */
   .header {
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
     background: #3e3e3e;
   }
 
@@ -544,13 +570,6 @@ html {
     text-align: center;
   }
 
-  /*
-  .main-program-header h2 {
-    font-weight: 400;
-    font-size: 1.9rem;
-    padding-top: 6%;
-  } */
-
   .main-proram-contents {
     margin-left: 9%;
   }
@@ -727,8 +746,12 @@ html {
   }
 
   .rights-msg h4 {
-    color: #000;
+    color: #3b3e45;
     font-weight: 700;
+  }
+
+  .rights-img-mobile {
+    display: none;
   }
 
   /* Rights Ends */
