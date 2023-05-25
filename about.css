@@ -318,8 +318,7 @@ html {
   }
 
   .first-summit {
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         rgba(143, 6, 6, 0.4),
         rgba(143, 6, 6, 0.4)
       ),
@@ -353,8 +352,7 @@ html {
   }
 
   .second-summit {
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         rgba(143, 6, 6, 0.4),
         rgba(143, 6, 6, 0.4)
       ),
@@ -470,15 +468,35 @@ html {
   /* Header end */
 
   /* navbar starts */
+  .hambar {
+    display: none;
+  }
+
   .navigation {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 1% 1% 0;
+    padding: 1% 1%;
   }
 
   .logo-wrapper {
     width: 25%;
+  }
+  
+  .navbar-ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0;
+    width: 75%;
+  }
+
+  .navbar-link {
+    text-align: center;
+    color: #868686;
+    font-weight: 800;
+    font-size: 0.96rem;
+    text-decoration: none;
   }
 
   .navbar-li {
@@ -497,69 +515,15 @@ html {
     color: #ff4f38;
     padding: 4%;
     box-sizing: border-box;
-    font-size: 1.25vw;
+    font-size: 1vw;
   }
 
   .logo {
     width: 100%;
   }
 
-  .hambar img {
-    display: none;
-  }
-
   .navbar-wrapper {
     width: auto;
-  }
-
-  /* navbar ends */
-
-  /* navbar starts */
-  .hambar {
-    display: none;
-  }
-
-  .navbar-intro {
-    box-shadow: 0 15px 10px -15px #111;
-  }
-
-  .navbar {
-    padding-top: 0.84rem;
-  }
-
-  #no-wrap {
-    flex-wrap: nowrap;
-  }
-
-  .navbar-brand {
-    padding-top: 0;
-    padding-left: 9%;
-  }
-
-  .navbar-brand img {
-    max-width: 50%;
-  }
-
-  .navbar-ul {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin: 0;
-    width: 75%;
-  }
-
-  .navbar-item {
-    padding-right: 3rem;
-    padding-top: 1.6%;
-    list-style: none;
-  }
-
-  .navbar-link {
-    text-align: center;
-    color: #868686;
-    font-weight: 800;
-    font-size: 0.96rem;
-    text-decoration: none;
   }
 
   /* navbar ends */
@@ -756,8 +720,7 @@ html {
   }
 
   .first-summit {
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         rgba(143, 6, 6, 0.4),
         rgba(143, 6, 6, 0.4)
       ),
@@ -769,8 +732,7 @@ html {
   }
 
   .second-summit {
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         rgba(143, 6, 6, 0.4),
         rgba(143, 6, 6, 0.4)
       ),
