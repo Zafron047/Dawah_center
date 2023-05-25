@@ -4,8 +4,11 @@
   font-family: 'Lato', 'Gothic A1', sans-serif;
 }
 
-html {
+html, body {
+  box-sizing: border-box;
   scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
 }
 
 @media only screen and (max-width: 767px) {
@@ -21,7 +24,7 @@ html {
     display: none;
   }
 
-  /* Ham starts */
+  /* Ham */
   .ham-popup {
     display: none;
     justify-content: space-between;
@@ -80,16 +83,12 @@ html {
     text-decoration: none;
   }
 
-  /* Ham Ends */
-
   /* Header */
   .header {
     display: none;
   }
 
-  /* Header end */
-
-  /* navbar starts */
+  /* navbar */
   .navigation {
     display: flex;
     flex-direction: row-reverse;
@@ -141,8 +140,6 @@ html {
   .navbar {
     position: inherit;
   }
-
-  /* navbar ends */
 
   /* Summit Description Stars */
 
@@ -218,9 +215,7 @@ html {
     font-size: 0.75rem;
   }
 
-  /* Summint Description Ends */
-
-  /* Summit logo start */
+  /* Summit logo */
   .summit-logo {
     border-bottom: 1px solid rgba(0, 0, 0, 0.25);
     margin-top: 25px;
@@ -279,9 +274,7 @@ html {
     display: none;
   }
 
-  /* Summit Logo Ends */
-
-  /* Past Summits Starts */
+  /* Past Summits */
   .summits {
     display: flex;
     flex-direction: column;
@@ -362,9 +355,7 @@ html {
     margin: 5%;
   }
 
-  /* Past Summits Ends */
-
-  /* Prtner Mobile Starts */
+  /* Prtner Mobile */
   .partner-mobile {
     background-color: #414246;
   }
@@ -397,9 +388,7 @@ html {
     margin-right: 3%;
   }
 
-  /* Partner Mobile Ends */
-
-  /* Rights Starts */
+  /* Rights */
   .rigts {
     display: flex;
     justify-content: space-between;
@@ -431,8 +420,6 @@ html {
     font-size: 0.625rem;
     font-weight: 700;
   }
-
-  /* Rights Ends */
 }
 
 @media only screen and (min-width: 768px) {
@@ -450,9 +437,9 @@ html {
   }
 
   .header-list {
+    margin: 0;
     display: flex;
     justify-content: end;
-    margin-block-end: 0;
     padding: 0.42em 9%;
   }
 
@@ -465,9 +452,7 @@ html {
     font-size: 1.2vw;
   }
 
-  /* Header end */
-
-  /* navbar starts */
+  /* navbar  */
   .hambar {
     display: none;
   }
@@ -526,9 +511,7 @@ html {
     width: auto;
   }
 
-  /* navbar ends */
-
-  /* Summit Description Starts */
+  /* Summit Description */
   .summit-description {
     background-image: url(./assets/images/islamic-conference-before.jpg);
     background-repeat: no-repeat;
@@ -615,9 +598,7 @@ html {
     font-weight: 800;
   }
 
-  /* Summit Description Ends */
-
-  /* Summit Logo Starts */
+  /* Summit Logo */
 
   .summit-logo {
     border-bottom: 1px solid rgba(0, 0, 0, 0.25);
@@ -676,10 +657,7 @@ html {
     margin: 0;
   }
 
-  /* Summit Logo Ends */
-
-  /* Past Summits Starts */
-
+  /* Past Summits */
   .summits {
     display: flex;
     justify-content: center;
@@ -768,9 +746,7 @@ html {
     margin: 0;
   }
 
-  /*  Past Summits Ends */
-
-  /* Rights Starts */
+  /* Rights */
   .rigts {
     display: flex;
     justify-content: space-around;
@@ -798,6 +774,4 @@ html {
     font-weight: 700;
     font-size: 2vw;
   }
-
-  /* Rights Ends */
 }

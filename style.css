@@ -75,14 +75,10 @@ html {
     margin: 2% 2% 0 0;
   }
 
-  /* Ham Ends */
-
   /* Header */
   .header {
     display: none;
   }
-
-  /* Header end */
 
   /* navbar starts */
   .navigation {
@@ -137,10 +133,8 @@ html {
     position: inherit;
   }
 
-  /* navbar ends */
-
   /* conference intro starts */
-  .seminar-info {
+  .seminar-bg {
     background-image: url(./assets/images/islamic-background.avif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -272,8 +266,6 @@ html {
     display: none;
   }
 
-  /* Main program ends */
-
   /* Featured Speaker Starts */
 
   .speaker-intro {
@@ -364,8 +356,6 @@ html {
     font-size: 0.625rem;
     font-weight: 700;
   }
-
-  /* Rights Ends */
 }
 
 @media only screen and (min-width: 768px) {
@@ -397,8 +387,6 @@ html {
     height: auto;
     font-size: 1.2vw;
   }
-
-  /* Header end */
 
   /* navbar starts */
   .navigation {
@@ -472,10 +460,8 @@ html {
     max-width: 50%;
   }
 
-  /* navbar ends */
-
   /* conference intro starts */
-  .seminar-info {
+  .seminar-bg {
     background-image: url(./assets/images/islamic-background.avif);
     background-position-x: 10%;
     background-position-y: 20%;
@@ -621,8 +607,6 @@ html {
     font-size: 1.25rem;
   }
 
-  /* Main program ends */
-
   /* Featured Speaker Starts */
 
   .speaker-intro {
@@ -753,6 +737,4 @@ html {
   .rights-img-mobile {
     display: none;
   }
-
-  /* Rights Ends */
 }
