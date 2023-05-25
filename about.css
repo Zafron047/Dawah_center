@@ -13,6 +13,10 @@ html {
     display: none;
   }
 
+  .fa-brands {
+    color: #fff;
+  }
+
   .display-initial {
     display: none;
   }
@@ -635,6 +639,7 @@ html {
   .summitcontact-email p {
     font-weight: 700;
     margin-bottom: 0.8rem;
+    color: #fff;
   }
 
   .summit-mail {
