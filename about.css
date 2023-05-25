@@ -4,7 +4,8 @@
   font-family: 'Lato', 'Gothic A1', sans-serif;
 }
 
-html, body {
+html,
+body {
   box-sizing: border-box;
   scroll-behavior: smooth;
   padding: 0;
@@ -311,7 +312,8 @@ html, body {
   }
 
   .first-summit {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(143, 6, 6, 0.4),
         rgba(143, 6, 6, 0.4)
       ),
@@ -345,7 +347,8 @@ html, body {
   }
 
   .second-summit {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(143, 6, 6, 0.4),
         rgba(143, 6, 6, 0.4)
       ),
@@ -467,7 +470,7 @@ html, body {
   .logo-wrapper {
     width: 25%;
   }
-  
+
   .navbar-ul {
     display: flex;
     justify-content: end;
@@ -698,7 +701,8 @@ html, body {
   }
 
   .first-summit {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(143, 6, 6, 0.4),
         rgba(143, 6, 6, 0.4)
       ),
@@ -710,7 +714,8 @@ html, body {
   }
 
   .second-summit {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(143, 6, 6, 0.4),
         rgba(143, 6, 6, 0.4)
       ),
