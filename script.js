@@ -1,18 +1,19 @@
 const speakerWrapper = document.getElementById('speaker-wrapper');
 const hambarButton = document.querySelector('.hambar');
+
+// Popup
 const closeButton = document.querySelector('.cross-btn');
 const hambarSection = document.querySelector('.ham-popup');
-
 function showMenu() {
   hambarSection.style.display = 'flex';
 }
-
 function hideMenu() {
   hambarSection.style.display = 'none';
 }
-
 hambarButton.addEventListener('click', showMenu);
 closeButton.addEventListener('click', hideMenu);
+// Popup
+
 const featuredSpeakers = [
   {
     speakerImg: './assets/images/sheikh-didu.png',

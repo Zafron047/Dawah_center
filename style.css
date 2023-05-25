@@ -495,7 +495,7 @@ html {
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 25.4902px;
+    font-size: 1.5vw;
     color: #515151;
     padding-top: 3.05%;
     padding-bottom: 3.05%;
@@ -726,12 +726,13 @@ html {
     display: flex;
     align-items: center;
     width: 50%;
-    padding-left: 4.514%;
+    padding-left: 4.5%;
   }
 
   .rights-msg h4 {
     color: #3b3e45;
     font-weight: 700;
+    font-size: 1.4vw;
   }
 
   .rights-img-mobile {

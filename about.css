@@ -30,7 +30,6 @@ body {
     display: none;
     justify-content: space-between;
     border: 5px solid#fff;
-    padding: 0 0 0 8%;
     background: #343a40;
     opacity: 0.95;
     position: fixed;
@@ -48,7 +47,7 @@ body {
     flex-direction: column;
     width: 95%;
     margin: 8% 0;
-    padding: 0;
+    padding-left: 8%;
   }
 
   .ham-popup-item {
@@ -57,7 +56,6 @@ body {
     list-style: none;
     width: 80%;
     margin: 0 0 3% 0;
-    padding: 0 0 0 3%;
   }
 
   .ham-popup-link {
@@ -77,7 +75,7 @@ body {
     opacity: 0.9;
     border-radius: 4px;
     text-decoration: none;
-    margin: 2% 2% 0 0;
+    margin: 2.5% 3% 0 0;
   }
 
   .cross-btn a {
@@ -452,7 +450,7 @@ body {
     padding-left: 1.2rem;
     font-weight: 400;
     height: auto;
-    font-size: 1.2vw;
+    font-size: 1.vw;
   }
 
   /* navbar  */
