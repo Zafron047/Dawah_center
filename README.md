@@ -1,4 +1,4 @@
-# Capstone_Project
+# Dawah_center
 
 <a name="readme-top"></a>
 
@@ -23,9 +23,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Capstone_Project] <a name="about-project"></a>
+# 📖 [Dawah_center] <a name="about-project"></a>
 
-**[Capstone_Project]** is a project that I have developed to showcase my skills and projects as a full-stack programmer.
+**[Dawah_center]** is a project that I have developed to showcase my skills and projects as a full-stack programmer.
 
 This portfolio serves as a platform for me to present my work and demonstrate my abilities in web development. It includes details about my projects, technical expertise, and professional background.
 
@@ -70,7 +70,7 @@ To get started, clone this repository to your desired folder:
 
 ```shell
 cd my-folder
-git clone https://github.com/Zafron047/Capstone_Project.git
+git clone https://github.com/Zafron047/Dawah_center.git
 ```
 
 --->
@@ -102,7 +102,7 @@ By following these steps, you can effectively run and validate the tests for the
 
 ### Deployment:
 
-[Click to see Live demo.](https://zafron047.github.io/Capstone_Project/)
+[Click to see Live demo.](https://zafron047.github.io/Dawah_center/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,7 +131,7 @@ These features will further enhance the functionality and performance of the pro
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Zafron047/Capstone_Project/issues).
+Feel free to check the [issues page](https://github.com/Zafron047/Dawah_center/issues).
 
 <br>
 
